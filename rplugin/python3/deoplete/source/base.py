@@ -17,6 +17,9 @@ class Base(LoggingMixin):
         self.description = ''
         self.mark = ''
         self.max_pattern_length = 80
+        self.max_abbr_width = 80
+        self.max_menu_width = 40
+        self.max_kind_width = 40
         self.input_pattern = ''
         self.matchers = ['matcher_fuzzy']
         self.sorters = ['sorter_rank']
